@@ -33,6 +33,6 @@ public class controller {
         
         String blob = Base64.encodeBase64String(file.getBytes());
         
-       return text+"<br><img width=100 src='data:image/jpeg;base64,"+blob+"'/><br>"+newTanggal;
+       return "<fieldset><div align=center>ID CARD</div><hr>"+text+"<br><img width=100 src='data:image/jpeg;base64,"+blob+"'/><br>"+newTanggal+"</fieldset>";
     }
 }
